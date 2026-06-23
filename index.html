@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Account Saver</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="greeting">Welcome</h1>
+    </div>
+
+    <div id="container">
+      <div class="form-container">
+        <div class="input-group">
+          <input
+            class="inputs"
+            id="user-input"
+            placeholder="Username"
+            type="text"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <input
+            class="inputs"
+            id="pass-input"
+            placeholder="Password"
+            type="text"
+            required
+          />
+        </div>
+      </div>
+
+      <div>
+        <button id="save-btn">Save</button>
+      </div>
+
+      <h2 style="color: white">Saved Accounts</h2>
+      <div id="passes-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
